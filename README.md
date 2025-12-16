@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🦷 OdontoPRO — SaaS para Clínicas Odontológicas
 
-## Getting Started
+OdontoPRO é um **SaaS profissional** desenvolvido como projeto prático de um curso focado em ensinar, do zero ao deploy, como criar produtos digitais modernos utilizando as **tecnologias mais requisitadas do mercado**.
 
-First, run the development server:
+O projeto simula uma plataforma completa para **clínicas odontológicas**, com foco em boas práticas, organização de código e arquitetura escalável, exatamente como é exigido em startups e empresas de tecnologia.
+
+---
+
+## 🚀 Objetivo do Projeto
+
+Este repositório tem como objetivo:
+
+- Construir um **SaaS real**, não apenas um CRUD simples
+- Aplicar conceitos modernos de desenvolvimento web
+- Demonstrar como estruturar um projeto profissional do **backend ao frontend**
+- Servir como base para criação de novos produtos SaaS
+
+Ao final, o projeto entrega uma aplicação pronta para uso e deploy.
+
+---
+
+## 🧩 Funcionalidades
+
+- 🔐 Autenticação de usuários
+  - Login tradicional
+  - Login com Google
+- 🏥 Gestão de clínica odontológica
+- 👥 Cadastro e gerenciamento de pacientes
+- 📅 Sistema de agendamentos
+- 🧑‍💼 Painel administrativo
+- 💳 Estrutura para pagamentos e assinaturas (SaaS)
+- ✅ Validações seguras de dados
+- 🎨 Interface moderna e responsiva
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Next.js (App Router)**
+- **React 19**
+- **TypeScript**
+- **Prisma ORM**
+- **PostgreSQL**
+- **NextAuth / Auth com Google**
+- **TailwindCSS**
+- **Shadcn UI**
+- **Zod** (validação de dados)
+- **Deploy profissional**
+
+---
+
+## 📚 O que é aprendido neste projeto
+
+- Desenvolvimento Web moderno com **React e Next.js**
+- Criação de um **SaaS completo**, do zero ao deploy
+- Integração com banco de dados relacional
+- Autenticação e autorização de usuários
+- Estruturação de projetos escaláveis
+- Boas práticas de código e organização
+- Preparação de um produto real para o mercado
+
+---
+
+## ✅ Pré-requisitos
+
+- Conhecimentos básicos em:
+  - React
+  - Next.js
+- Noções de JavaScript/TypeScript
+- Vontade de aprender e construir algo real 🚀
+
+---
+
+## 👨‍💻 Para quem é este projeto
+
+- Desenvolvedores **Frontend**
+- Desenvolvedores **Backend**
+- Desenvolvedores **Full Stack**
+- Quem quer aprender a criar **SaaS completos**
+- Quem deseja sair dos tutoriais básicos e criar **produtos reais**
+
+---
+
+## 📦 Como executar o projeto (em breve)
 
 ```bash
+# Instalar dependências
+npm install
+
+# Rodar o projeto em desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
